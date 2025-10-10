@@ -370,6 +370,11 @@ const ProductsPage = () => {
         },
       ],
     },
+    {
+      id: "roupeiros",
+      name: "Roupeiros",
+      products: [],
+    },
   ];
 
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
