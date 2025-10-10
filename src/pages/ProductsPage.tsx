@@ -50,6 +50,12 @@ import fogao3Image from "@/assets/fogao-3.jpeg";
 import fogao4Image from "@/assets/fogao-4.jpeg";
 import fogao5Image from "@/assets/fogao-5.jpeg";
 import fogao6Image from "@/assets/fogao-6.jpeg";
+import mesa1Image from "@/assets/mesa-1.jpeg";
+import mesa2Image from "@/assets/mesa-2.jpeg";
+import mesa3Image from "@/assets/mesa-3.jpeg";
+import mesa4Image from "@/assets/mesa-4.jpeg";
+import mesa5Image from "@/assets/mesa-5.jpeg";
+import mesa6Image from "@/assets/mesa-6.png";
 
 interface Product {
   image: string;
@@ -322,9 +328,34 @@ const ProductsPage = () => {
       name: "Mesas e Cadeiras",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800",
-          title: "Mesas e Cadeiras",
-          alt: "Mesas e cadeiras para sala de jantar",
+          image: mesa1Image,
+          title: "Mesa com 6 Cadeiras Branca Granito",
+          alt: "Conjunto de mesa com 6 cadeiras brancas com tampo granito",
+        },
+        {
+          image: mesa2Image,
+          title: "Mesa Moderna Branca com 6 Cadeiras",
+          alt: "Mesa de jantar branca moderna com 6 cadeiras estofadas",
+        },
+        {
+          image: mesa3Image,
+          title: "Mesa Preta com 6 Cadeiras Cinza",
+          alt: "Conjunto mesa preta com tampo preto e 6 cadeiras estofadas cinza",
+        },
+        {
+          image: mesa4Image,
+          title: "Mesa Redonda com 4 Cadeiras Pretas",
+          alt: "Mesa redonda com tampo amadeirado e 4 cadeiras pretas estofadas",
+        },
+        {
+          image: mesa5Image,
+          title: "Mesa Madeira com 6 Cadeiras Brancas",
+          alt: "Mesa retangular amadeirada com 6 cadeiras brancas estofadas",
+        },
+        {
+          image: mesa6Image,
+          title: "Mesa Compacta Granito 4 Cadeiras",
+          alt: "Conjunto compacto mesa granito com 4 cadeiras estofadas",
         },
       ],
     },
