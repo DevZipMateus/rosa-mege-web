@@ -32,6 +32,12 @@ import cozinhaModulada3Image from "@/assets/cozinha-modulada-3.jpeg";
 import cozinhaModulada4Image from "@/assets/cozinha-modulada-4.jpeg";
 import cozinhaModulada5Image from "@/assets/cozinha-modulada-5.jpeg";
 import cozinhaModulada6Image from "@/assets/cozinha-modulada-6.jpeg";
+import comoda1Image from "@/assets/comoda-1.jpeg";
+import comoda2Image from "@/assets/comoda-2.jpeg";
+import comoda3Image from "@/assets/comoda-3.jpeg";
+import comoda4Image from "@/assets/comoda-4.jpeg";
+import comoda5Image from "@/assets/comoda-5.jpeg";
+import comoda6Image from "@/assets/comoda-6.jpeg";
 
 interface Product {
   image: string;
@@ -196,9 +202,34 @@ const ProductsPage = () => {
       name: "Cômodas e Prateleiras",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=800",
-          title: "Cômodas e Prateleiras",
-          alt: "Cômodas e prateleiras para organização",
+          image: comoda1Image,
+          title: "Cômoda Compacta Off White",
+          alt: "Cômoda compacta com 4 gavetas e 1 porta em acabamento off white e madeira",
+        },
+        {
+          image: comoda2Image,
+          title: "Cômoda Grande Off White",
+          alt: "Cômoda grande com múltiplas gavetas, porta e rodízios em off white e madeira",
+        },
+        {
+          image: comoda3Image,
+          title: "Cômoda com Nicho e Espelho",
+          alt: "Cômoda ampla com 6 gavetas, nicho lateral e espelho em off white e madeira",
+        },
+        {
+          image: comoda4Image,
+          title: "Cômoda Penteadeira com Espelho",
+          alt: "Cômoda penteadeira com 4 gavetas e espelho panorâmico em madeira clara e branco",
+        },
+        {
+          image: comoda5Image,
+          title: "Cômoda Branca Compacta",
+          alt: "Cômoda compacta com 4 gavetas e 1 porta em branco",
+        },
+        {
+          image: comoda6Image,
+          title: "Cômoda Madeira Natural",
+          alt: "Cômoda com 4 gavetas em madeira natural",
         },
       ],
     },
