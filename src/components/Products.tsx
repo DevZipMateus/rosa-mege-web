@@ -1,27 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
-import modularImage from "@/assets/furniture-modular.jpg";
-import sofasImage from "@/assets/furniture-sofas.jpg";
-import eletroImage from "@/assets/furniture-eletro.jpg";
+import kitchenImage from "@/assets/furniture-kitchen.jpg";
 
 const Products = () => {
   const products = [
     {
-      image: modularImage,
-      title: "Móveis sob medida e modulados",
-      description: "Roupeiros, mesas, cadeiras personalizadas para seu espaço",
-      alt: "Móveis modulados modernos em showroom elegante",
-    },
-    {
-      image: sofasImage,
-      title: "Conforto para sua casa",
-      description: "Colchões, box, poltronas e sofás de alta qualidade",
-      alt: "Sofás e poltronas confortáveis em ambiente acolhedor",
-    },
-    {
-      image: eletroImage,
-      title: "Linha eletro",
-      description: "Eletrodomésticos e eletrônicos para completar seu lar",
-      alt: "Eletrodomésticos modernos em cozinha elegante",
+      image: kitchenImage,
+      title: "Cozinhas Compactas",
+      description: "Soluções completas e modernas para otimizar seu espaço com design elegante e funcionalidade",
+      alt: "Cozinha compacta moderna em showroom elegante",
     },
   ];
 
