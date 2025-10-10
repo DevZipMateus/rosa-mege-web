@@ -21,7 +21,7 @@ const Hero = () => {
             Rosa & Mege Serviços Ltda
           </h1>
           <h2 className="text-2xl md:text-3xl text-primary-foreground/90 mb-8 leading-relaxed">
-            Ser reconhecida como a loja de móveis que mais conecta acessibilidade, inovação e
+            A loja de móveis que mais conecta acessibilidade, inovação e
             sustentabilidade, ajudando famílias a realizarem o sonho de renovar a casa sem abrir mão
             do bom gosto e da responsabilidade com o futuro.
           </h2>
