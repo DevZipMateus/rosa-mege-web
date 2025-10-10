@@ -119,7 +119,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-48 rounded-lg object-contain"
+              className="w-full h-auto max-h-56 rounded-lg object-contain"
             />
             <video
               src={video2}
@@ -127,7 +127,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-48 rounded-lg object-contain"
+              className="w-full h-auto max-h-56 rounded-lg object-contain"
             />
             <video
               src={video3}
@@ -135,7 +135,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-48 rounded-lg object-contain"
+              className="w-full h-auto max-h-56 rounded-lg object-contain"
             />
           </div>
 
