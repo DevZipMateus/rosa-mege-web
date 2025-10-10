@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import kitchenImage from "@/assets/furniture-kitchen.jpg";
+import cabinetsImage from "@/assets/furniture-cabinets.jpg";
 
 const Products = () => {
   const products = [
@@ -8,6 +9,12 @@ const Products = () => {
       title: "Cozinhas Compactas",
       description: "Soluções completas e modernas para otimizar seu espaço com design elegante e funcionalidade",
       alt: "Cozinha compacta moderna em showroom elegante",
+    },
+    {
+      image: cabinetsImage,
+      title: "Balcões, Aéreos, Paneleiros e Torres",
+      description: "Móveis modulares versáteis que se adaptam perfeitamente às suas necessidades e espaço disponível",
+      alt: "Balcões, armários aéreos, paneleiros e torres modulares para cozinha",
     },
   ];
 
