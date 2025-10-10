@@ -32,6 +32,9 @@ import sofa1Image from "@/assets/sofa-1.jpeg";
 import sofa2Image from "@/assets/sofa-2.jpeg";
 import roupeiro1Image from "@/assets/roupeiro-1.jpeg";
 import roupeiro2Image from "@/assets/roupeiro-2.jpeg";
+import video1 from "@/assets/video-1.mp4";
+import video2 from "@/assets/video-2.mp4";
+import video3 from "@/assets/video-3.mp4";
 
 const Products = () => {
   const productImages = [
@@ -108,6 +111,33 @@ const Products = () => {
             <CarouselPrevious className="left-0" />
             <CarouselNext className="right-0" />
           </Carousel>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <video
+              src={video1}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto rounded-lg"
+            />
+            <video
+              src={video2}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto rounded-lg"
+            />
+            <video
+              src={video3}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
 
           <div className="text-center">
             <Link to="/produtos">
