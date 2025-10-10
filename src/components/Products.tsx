@@ -1,6 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import kitchenImage from "@/assets/furniture-kitchen.jpg";
-import cabinetsImage from "@/assets/furniture-cabinets.jpg";
+import balcaoPiaImage from "@/assets/balcao-pia.jpg";
+import balcaoSimplesImage from "@/assets/balcao-simples.jpg";
+import torreEstanteImage from "@/assets/torre-estante.jpg";
+import paneleiroTorreImage from "@/assets/paneleiro-torre.jpg";
+import aereoImage from "@/assets/aereo.jpg";
+import cristaleiraImage from "@/assets/cristaleira.jpg";
 
 const Products = () => {
   const products = [
@@ -11,10 +16,40 @@ const Products = () => {
       alt: "Cozinha compacta moderna em showroom elegante",
     },
     {
-      image: cabinetsImage,
-      title: "Balcões, Aéreos, Paneleiros e Torres",
-      description: "Móveis modulares versáteis que se adaptam perfeitamente às suas necessidades e espaço disponível",
-      alt: "Balcões, armários aéreos, paneleiros e torres modulares para cozinha",
+      image: balcaoPiaImage,
+      title: "Balcão com Pia",
+      description: "Balcão moderno com pia integrada, perfeito para otimizar o preparo de alimentos",
+      alt: "Balcão com pia integrada em madeira e preto",
+    },
+    {
+      image: balcaoSimplesImage,
+      title: "Balcão",
+      description: "Balcão versátil para armazenamento e organização da cozinha",
+      alt: "Balcão de cozinha em madeira e preto",
+    },
+    {
+      image: torreEstanteImage,
+      title: "Torre com Nichos",
+      description: "Torre moderna com nichos abertos e armário, ideal para expor e organizar",
+      alt: "Torre alta com nichos decorativos e armário",
+    },
+    {
+      image: paneleiroTorreImage,
+      title: "Paneleiro",
+      description: "Paneleiro alto com amplo espaço de armazenamento para utensílios",
+      alt: "Paneleiro torre alto em madeira",
+    },
+    {
+      image: aereoImage,
+      title: "Armário Aéreo",
+      description: "Armário aéreo em madeira natural para aproveitar o espaço vertical",
+      alt: "Armário aéreo em madeira clara",
+    },
+    {
+      image: cristaleiraImage,
+      title: "Cristaleira",
+      description: "Cristaleira elegante com prateleiras e compartimentos para louças e decoração",
+      alt: "Cristaleira com prateleiras de vidro e armário inferior",
     },
   ];
 
