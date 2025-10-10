@@ -56,6 +56,12 @@ import mesa3Image from "@/assets/mesa-3.jpeg";
 import mesa4Image from "@/assets/mesa-4.jpeg";
 import mesa5Image from "@/assets/mesa-5.jpeg";
 import mesa6Image from "@/assets/mesa-6.png";
+import roupeiro1Image from "@/assets/roupeiro-1.jpeg";
+import roupeiro2Image from "@/assets/roupeiro-2.jpeg";
+import roupeiro3Image from "@/assets/roupeiro-3.jpeg";
+import roupeiro4Image from "@/assets/roupeiro-4.jpeg";
+import roupeiro5Image from "@/assets/roupeiro-5.jpeg";
+import roupeiro6Image from "@/assets/roupeiro-6.jpeg";
 
 interface Product {
   image: string;
@@ -373,7 +379,38 @@ const ProductsPage = () => {
     {
       id: "roupeiros",
       name: "Roupeiros",
-      products: [],
+      products: [
+        {
+          image: roupeiro1Image,
+          title: "Roupeiro de Correr Preto e Madeira",
+          alt: "Roupeiro moderno com portas de correr em preto e acabamento amadeirado",
+        },
+        {
+          image: roupeiro2Image,
+          title: "Roupeiro 6 Portas com Espelho",
+          alt: "Roupeiro amplo com 6 portas, espelho central e gavetas em madeira e off white",
+        },
+        {
+          image: roupeiro3Image,
+          title: "Roupeiro 8 Portas com Espelho",
+          alt: "Roupeiro grande com 8 portas espelhadas em acabamento amadeirado",
+        },
+        {
+          image: roupeiro4Image,
+          title: "Roupeiro 6 Portas Branco com Puxadores Dourados",
+          alt: "Roupeiro elegante branco com 6 portas e puxadores em acabamento dourado",
+        },
+        {
+          image: roupeiro5Image,
+          title: "Roupeiro com Cama Solteiro Integrada",
+          alt: "Roupeiro funcional em madeira e branco com cama de solteiro integrada, nichos e gavetas",
+        },
+        {
+          image: roupeiro6Image,
+          title: "Roupeiro 4 Portas com Nicho e Gavetas",
+          alt: "Roupeiro compacto em madeira e branco com 4 portas, nicho central e 3 gavetas",
+        },
+      ],
     },
   ];
 
