@@ -38,6 +38,12 @@ import comoda3Image from "@/assets/comoda-3.jpeg";
 import comoda4Image from "@/assets/comoda-4.jpeg";
 import comoda5Image from "@/assets/comoda-5.jpeg";
 import comoda6Image from "@/assets/comoda-6.jpeg";
+import eletro1Image from "@/assets/eletro-1.png";
+import eletro2Image from "@/assets/eletro-2.jpeg";
+import eletro3Image from "@/assets/eletro-3.jpeg";
+import eletro4Image from "@/assets/eletro-4.webp";
+import eletro5Image from "@/assets/eletro-5.webp";
+import eletro6Image from "@/assets/eletro-6.webp";
 
 interface Product {
   image: string;
@@ -238,9 +244,34 @@ const ProductsPage = () => {
       name: "Eletros em Geral",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800",
-          title: "Eletros em Geral",
-          alt: "Eletrodomésticos diversos",
+          image: eletro1Image,
+          title: "Liquidificador Mondial",
+          alt: "Liquidificador Mondial preto com jarra de vidro, controles Turbo e Power",
+        },
+        {
+          image: eletro2Image,
+          title: "Lavadora Portátil",
+          alt: "Lavadora portátil branca e cinza com painel digital",
+        },
+        {
+          image: eletro3Image,
+          title: "Geladeira Consul",
+          alt: "Geladeira Consul duplex inox com freezer superior",
+        },
+        {
+          image: eletro4Image,
+          title: "Sanduicheira Grill",
+          alt: "Sanduicheira grill antiaderente preta para sanduíches e grelhados",
+        },
+        {
+          image: eletro5Image,
+          title: "Micro-ondas Electrolux",
+          alt: "Micro-ondas Electrolux branco com painel digital e 20 litros",
+        },
+        {
+          image: eletro6Image,
+          title: "Air Fryer Mondial 3,6L",
+          alt: "Air fryer Mondial Pratic preta com capacidade de 3,6 litros e controles manuais",
         },
       ],
     },
