@@ -14,6 +14,12 @@ import paneleiroTorreImage from "@/assets/paneleiro-torre.jpg";
 import aereoImage from "@/assets/aereo.jpg";
 import cristaleiraImage from "@/assets/cristaleira.jpg";
 import kitchenImage from "@/assets/furniture-kitchen.jpg";
+import cama1Image from "@/assets/cama-1.jpeg";
+import cama2Image from "@/assets/cama-2.jpeg";
+import cama3Image from "@/assets/cama-3.jpeg";
+import cama4Image from "@/assets/cama-4.jpeg";
+import cama5Image from "@/assets/cama-5.jpeg";
+import cama6Image from "@/assets/cama-6.jpeg";
 
 interface Product {
   image: string;
@@ -70,9 +76,34 @@ const ProductsPage = () => {
       name: "Camas",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
-          title: "Camas Confortáveis",
-          alt: "Camas modernas e confortáveis para seu descanso",
+          image: cama1Image,
+          title: "Cama Box com Base Ripada",
+          alt: "Cama box com base ripada em tons bege e marrom",
+        },
+        {
+          image: cama2Image,
+          title: "Cama Box Cinza",
+          alt: "Cama box moderna em tons de cinza",
+        },
+        {
+          image: cama3Image,
+          title: "Cama Baú Cinza",
+          alt: "Cama box com baú e sistema de elevação em cinza",
+        },
+        {
+          image: cama4Image,
+          title: "Cama Baú com Auxiliar",
+          alt: "Cama box com baú e cama auxiliar em cinza",
+        },
+        {
+          image: cama5Image,
+          title: "Cama Box Vinho",
+          alt: "Cama box elegante em tom vinho bordô",
+        },
+        {
+          image: cama6Image,
+          title: "Cama Box Solteiro Preta",
+          alt: "Cama box de solteiro em preto com colchão estampado",
         },
       ],
     },
