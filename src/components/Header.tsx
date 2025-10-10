@@ -1,7 +1,7 @@
 import { Menu, Phone, Mail, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 const Header = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
