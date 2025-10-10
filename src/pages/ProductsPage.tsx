@@ -220,10 +220,20 @@ const ProductsPage = () => {
                           loading="lazy"
                         />
                       </div>
-                      <div className="p-4">
+                      <div className="p-4 flex flex-col gap-3">
                         <h3 className="text-lg font-semibold text-foreground">
                           {product.title}
                         </h3>
+                        <a
+                          href={`https://wa.me/554999609800?text=Olá! Gostaria de mais informações sobre: ${encodeURIComponent(product.title)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-full"
+                        >
+                          <Button className="w-full" variant="default">
+                            Mais Informações
+                          </Button>
+                        </a>
                       </div>
                     </div>
                   ))}
