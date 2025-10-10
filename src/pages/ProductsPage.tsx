@@ -496,17 +496,17 @@ const ProductsPage = () => {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
                   {category.products.map((product, index) => (
                     <div
                       key={index}
                       className="group bg-card rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all border border-border"
                     >
-                      <div className="relative h-64 overflow-hidden bg-muted">
+                      <div className="relative aspect-square overflow-hidden bg-muted">
                         <img
                           src={product.image}
                           alt={product.alt}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                          className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                           loading="lazy"
                         />
                       </div>
