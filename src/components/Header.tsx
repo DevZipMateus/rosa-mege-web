@@ -1,32 +1,61 @@
 import { Menu, Phone, Mail, Instagram, Facebook } from "lucide-react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import logo from "@/assets/logo.png";
 const Header = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
     }
   };
+
+  const handleProductsClick = () => {
+    navigate("/produtos");
+  };
+
   const navigation = [{
     name: "Início",
-    id: "hero"
+    id: "hero",
+    action: () => scrollToSection("hero")
   }, {
     name: "Sobre",
-    id: "sobre"
+    id: "sobre",
+    action: () => scrollToSection("sobre")
   }, {
     name: "Produtos",
-    id: "produtos"
+    id: "produtos",
+    action: handleProductsClick
   }, {
     name: "Contato",
-    id: "contato"
+    id: "contato",
+    action: () => scrollToSection("contato")
   }];
   return <header className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-md">
       <div className="container mx-auto px-4">
@@ -38,7 +67,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            {navigation.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-primary-foreground hover:text-accent transition-colors font-medium">
+            {navigation.map(item => <button key={item.id} onClick={item.action} className="text-primary-foreground hover:text-accent transition-colors font-medium">
                 {item.name}
               </button>)}
           </nav>
@@ -68,7 +97,7 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent>
               <nav className="flex flex-col gap-4 mt-8">
-                {navigation.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-left text-lg font-medium hover:text-accent transition-colors">
+                {navigation.map(item => <button key={item.id} onClick={item.action} className="text-left text-lg font-medium hover:text-accent transition-colors">
                     {item.name}
                   </button>)}
               </nav>
