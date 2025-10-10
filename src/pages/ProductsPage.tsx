@@ -26,6 +26,12 @@ import cozinhaCompacta3Image from "@/assets/cozinha-compacta-3.jpeg";
 import cozinhaCompacta4Image from "@/assets/cozinha-compacta-4.jpeg";
 import cozinhaCompacta5Image from "@/assets/cozinha-compacta-5.jpeg";
 import cozinhaCompacta6Image from "@/assets/cozinha-compacta-6.jpeg";
+import cozinhaModulada1Image from "@/assets/cozinha-modulada-1.jpeg";
+import cozinhaModulada2Image from "@/assets/cozinha-modulada-2.jpeg";
+import cozinhaModulada3Image from "@/assets/cozinha-modulada-3.jpeg";
+import cozinhaModulada4Image from "@/assets/cozinha-modulada-4.jpeg";
+import cozinhaModulada5Image from "@/assets/cozinha-modulada-5.jpeg";
+import cozinhaModulada6Image from "@/assets/cozinha-modulada-6.jpeg";
 
 interface Product {
   image: string;
@@ -154,9 +160,34 @@ const ProductsPage = () => {
       name: "Cozinhas Moduladas",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800",
-          title: "Cozinhas Moduladas",
-          alt: "Cozinhas moduladas personalizadas",
+          image: cozinhaModulada1Image,
+          title: "Cozinha Modulada Azul e Madeira",
+          alt: "Cozinha modulada em L com armários azuis e madeira natural",
+        },
+        {
+          image: cozinhaModulada2Image,
+          title: "Cozinha Modulada Branca Moderna",
+          alt: "Cozinha modulada branca compacta com eletros embutidos",
+        },
+        {
+          image: cozinhaModulada3Image,
+          title: "Cozinha Modulada Cinza com Cristaleira",
+          alt: "Cozinha modulada em L cinza e madeira com cristaleira iluminada",
+        },
+        {
+          image: cozinhaModulada4Image,
+          title: "Cozinha Modulada com Ilha",
+          alt: "Cozinha modulada azul marinho com ilha e bancada americana",
+        },
+        {
+          image: cozinhaModulada5Image,
+          title: "Cozinha Modulada Preto e Madeira",
+          alt: "Cozinha modulada em L com armários pretos e madeira",
+        },
+        {
+          image: cozinhaModulada6Image,
+          title: "Cozinha Modulada Clara com Prateleiras",
+          alt: "Cozinha modulada clara com prateleiras e cristaleira",
         },
       ],
     },
