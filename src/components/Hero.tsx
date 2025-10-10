@@ -11,7 +11,7 @@ const Hero = () => {
           alt="Showroom moderno com móveis elegantes"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
+        
       </div>
 
       {/* Content */}
