@@ -44,6 +44,12 @@ import eletro3Image from "@/assets/eletro-3.jpeg";
 import eletro4Image from "@/assets/eletro-4.webp";
 import eletro5Image from "@/assets/eletro-5.webp";
 import eletro6Image from "@/assets/eletro-6.webp";
+import fogao1Image from "@/assets/fogao-1.jpeg";
+import fogao2Image from "@/assets/fogao-2.jpeg";
+import fogao3Image from "@/assets/fogao-3.jpeg";
+import fogao4Image from "@/assets/fogao-4.jpeg";
+import fogao5Image from "@/assets/fogao-5.jpeg";
+import fogao6Image from "@/assets/fogao-6.jpeg";
 
 interface Product {
   image: string;
@@ -280,9 +286,34 @@ const ProductsPage = () => {
       name: "Fogões e Cooktops",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=800",
-          title: "Fogões e Cooktops",
-          alt: "Fogões e cooktops modernos",
+          image: fogao1Image,
+          title: "Cooktop 5 Bocas Dako Mastercook",
+          alt: "Cooktop embutir 5 bocas em vidro temperado preto com trempes de ferro",
+        },
+        {
+          image: fogao2Image,
+          title: "Cooktop 5 Bocas Dako",
+          alt: "Cooktop de embutir com 5 bocas, vidro temperado preto e trempes reforçadas",
+        },
+        {
+          image: fogao3Image,
+          title: "Cooktop 4 Bocas Dako Mastercook",
+          alt: "Cooktop de vidro temperado preto com 4 bocas e controles laterais",
+        },
+        {
+          image: fogao4Image,
+          title: "Fogão Clarice Delicato 4 Bocas Cinza",
+          alt: "Fogão de piso 4 bocas cinza com forno limpa fácil e acendimento automático",
+        },
+        {
+          image: fogao5Image,
+          title: "Fogão Clarice Delicato 5 Bocas Branco",
+          alt: "Fogão de piso 5 bocas branco com forno amplo e mesa de vidro temperado",
+        },
+        {
+          image: fogao6Image,
+          title: "Fogão Clarice Delicato 4 Bocas Cinza com Tampa",
+          alt: "Fogão 4 bocas cinza com tampa de vidro protetora e forno amplo",
         },
       ],
     },
