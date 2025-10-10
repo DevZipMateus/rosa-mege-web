@@ -112,14 +112,14 @@ const Products = () => {
             <CarouselNext className="right-0" />
           </Carousel>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-3xl mx-auto">
             <video
               src={video1}
               autoPlay
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-64 rounded-lg object-cover"
+              className="w-full h-auto max-h-48 rounded-lg object-cover"
             />
             <video
               src={video2}
@@ -127,7 +127,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-64 rounded-lg object-cover"
+              className="w-full h-auto max-h-48 rounded-lg object-cover"
             />
             <video
               src={video3}
@@ -135,7 +135,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-64 rounded-lg object-cover"
+              className="w-full h-auto max-h-48 rounded-lg object-cover"
             />
           </div>
 
