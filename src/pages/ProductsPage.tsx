@@ -62,6 +62,12 @@ import roupeiro3Image from "@/assets/roupeiro-3.jpeg";
 import roupeiro4Image from "@/assets/roupeiro-4.jpeg";
 import roupeiro5Image from "@/assets/roupeiro-5.jpeg";
 import roupeiro6Image from "@/assets/roupeiro-6.jpeg";
+import sofa1Image from "@/assets/sofa-1.jpeg";
+import sofa2Image from "@/assets/sofa-2.jpeg";
+import sofa3Image from "@/assets/sofa-3.jpeg";
+import sofa4Image from "@/assets/sofa-4.jpeg";
+import sofa5Image from "@/assets/sofa-5.jpeg";
+import sofa6Image from "@/assets/sofa-6.jpeg";
 
 interface Product {
   image: string;
@@ -370,9 +376,34 @@ const ProductsPage = () => {
       name: "Sofás",
       products: [
         {
-          image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
-          title: "Sofás",
-          alt: "Sofás confortáveis para sala de estar",
+          image: sofa1Image,
+          title: "Sofá Retrátil Off White",
+          alt: "Sofá retrátil moderno em tecido off white com almofadas soltas",
+        },
+        {
+          image: sofa2Image,
+          title: "Sofá Retrátil e Reclinável Bege",
+          alt: "Sofá amplo retrátil e reclinável em tecido bege com chaise",
+        },
+        {
+          image: sofa3Image,
+          title: "Sofá de Canto Retrátil Bege com Porta Copos",
+          alt: "Sofá de canto retrátil em tecido bege com encosto capitonê e porta copos",
+        },
+        {
+          image: sofa4Image,
+          title: "Sofá de Canto Cinza Moderno",
+          alt: "Sofá de canto em tecido cinza com encosto capitonê e design contemporâneo",
+        },
+        {
+          image: sofa5Image,
+          title: "Sofá 3 Lugares Cinza com Pés de Madeira",
+          alt: "Sofá compacto 3 lugares em tecido cinza com base de madeira natural",
+        },
+        {
+          image: sofa6Image,
+          title: "Sofá Retrátil Caramelo",
+          alt: "Sofá retrátil em tecido caramelo com encosto reclinável e chaise",
         },
       ],
     },
