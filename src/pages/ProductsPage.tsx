@@ -20,6 +20,12 @@ import cama3Image from "@/assets/cama-3.jpeg";
 import cama4Image from "@/assets/cama-4.jpeg";
 import cama5Image from "@/assets/cama-5.jpeg";
 import cama6Image from "@/assets/cama-6.jpeg";
+import cozinhaCompacta1Image from "@/assets/cozinha-compacta-1.jpeg";
+import cozinhaCompacta2Image from "@/assets/cozinha-compacta-2.jpeg";
+import cozinhaCompacta3Image from "@/assets/cozinha-compacta-3.jpeg";
+import cozinhaCompacta4Image from "@/assets/cozinha-compacta-4.jpeg";
+import cozinhaCompacta5Image from "@/assets/cozinha-compacta-5.jpeg";
+import cozinhaCompacta6Image from "@/assets/cozinha-compacta-6.jpeg";
 
 interface Product {
   image: string;
@@ -112,9 +118,34 @@ const ProductsPage = () => {
       name: "Cozinhas Compactas",
       products: [
         {
-          image: kitchenImage,
-          title: "Cozinha Compacta",
-          alt: "Cozinha compacta moderna em showroom elegante",
+          image: cozinhaCompacta1Image,
+          title: "Cozinha Compacta Cinza e Madeira",
+          alt: "Cozinha compacta moderna com acabamento cinza e madeira",
+        },
+        {
+          image: cozinhaCompacta2Image,
+          title: "Cozinha Compacta com Pastilhas",
+          alt: "Cozinha compacta elegante com detalhes em pastilhas",
+        },
+        {
+          image: cozinhaCompacta3Image,
+          title: "Cozinha Compacta com Nichos",
+          alt: "Cozinha compacta funcional com nichos decorativos",
+        },
+        {
+          image: cozinhaCompacta4Image,
+          title: "Cozinha Compacta Preto e Madeira",
+          alt: "Cozinha compacta em madeira com acabamento preto",
+        },
+        {
+          image: cozinhaCompacta5Image,
+          title: "Cozinha Compacta Off White",
+          alt: "Cozinha compacta clean em tons off white",
+        },
+        {
+          image: cozinhaCompacta6Image,
+          title: "Cozinha Compacta Cinza Moderna",
+          alt: "Cozinha compacta contemporânea em tons de cinza",
         },
       ],
     },
