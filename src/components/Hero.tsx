@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="bg-black/50 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-lg">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight">
-              Rosa & Mege Serviços Ltda
+              Feirão da Mobília - A loja do troca troca
             </h1>
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 md:mb-8 leading-relaxed">
               A loja de móveis que mais conecta acessibilidade, inovação e
