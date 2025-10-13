@@ -64,11 +64,11 @@ const Products = () => {
     <section id="produtos" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 md:mb-6">
               Nossos Produtos
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6 md:mb-8 px-4">
               Oferecemos uma linha completa de móveis e eletros para transformar sua casa em um lar
               aconchegante e funcional.
             </p>
@@ -112,14 +112,14 @@ const Products = () => {
             <CarouselNext className="right-0" />
           </Carousel>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mb-6 md:mb-8 max-w-5xl mx-auto px-2 sm:px-4">
             <video
               src={video1}
               autoPlay
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-[480px] rounded-lg object-contain"
+              className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
             <video
               src={video2}
@@ -127,7 +127,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-[480px] rounded-lg object-contain"
+              className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
             <video
               src={video3}
@@ -135,7 +135,7 @@ const Products = () => {
               loop
               muted
               playsInline
-              className="w-full h-auto max-h-[480px] rounded-lg object-contain"
+              className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
           </div>
 

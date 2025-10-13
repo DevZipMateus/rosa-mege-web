@@ -23,11 +23,11 @@ const About = () => {
   return (
     <section id="sobre" className="py-24 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="max-w-3xl mx-auto text-center mb-12 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 md:mb-6">
             Sobre nós
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed px-4">
             Atuamos no comércio de móveis e eletros, oferecendo soluções completas para renovar sua
             casa com qualidade, acessibilidade e bom gosto. Nossa missão é conectar pessoas aos seus
             sonhos de lar através de produtos inovadores e sustentáveis.

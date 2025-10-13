@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <section id="contato" className="py-24 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="max-w-3xl mx-auto text-center mb-12 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 md:mb-6">
             Entre em contato
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed px-4">
             Visite nossa loja ou entre em contato conosco para mais informações sobre nossos produtos
             e serviços.
           </p>

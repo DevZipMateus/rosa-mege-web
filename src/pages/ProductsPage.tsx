@@ -464,23 +464,23 @@ const ProductsPage = () => {
           </div>
 
           {/* Page Title */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <div className="text-center mb-8 md:mb-12">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 md:mb-4 px-4">
               Catálogo de Produtos
             </h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
               Explore nossa linha completa de móveis e eletrodomésticos organizados por categoria
             </p>
           </div>
 
           {/* Tabs */}
           <Tabs value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-            <TabsList className="w-full flex flex-wrap h-auto gap-2 bg-muted/50 p-2 mb-8">
+            <TabsList className="w-full flex flex-wrap justify-center h-auto gap-1 sm:gap-2 bg-muted/50 p-2 mb-6 md:mb-8">
               {categories.map((category) => (
                 <TabsTrigger
                   key={category.id}
                   value={category.id}
-                  className="flex-grow md:flex-grow-0 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                  className="flex-1 min-w-[140px] sm:min-w-0 sm:flex-grow md:flex-grow-0 text-xs sm:text-sm data-[state=active]:bg-primary data-[state=active]:text-primary-foreground px-2 sm:px-3"
                 >
                   {category.name}
                 </TabsTrigger>
@@ -488,15 +488,15 @@ const ProductsPage = () => {
             </TabsList>
 
             {categories.map((category) => (
-              <TabsContent key={category.id} value={category.id} className="mt-8">
-                <div className="mb-6">
-                  <h2 className="text-2xl font-bold text-foreground">{category.name}</h2>
-                  <p className="text-muted-foreground">
+              <TabsContent key={category.id} value={category.id} className="mt-6 md:mt-8">
+                <div className="mb-4 md:mb-6 px-2">
+                  <h2 className="text-xl sm:text-2xl font-bold text-foreground">{category.name}</h2>
+                  <p className="text-sm sm:text-base text-muted-foreground">
                     {category.products.length} {category.products.length === 1 ? "produto" : "produtos"} disponíveis
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 px-2">
                   {category.products.map((product, index) => (
                     <div
                       key={index}
@@ -510,8 +510,8 @@ const ProductsPage = () => {
                           loading="lazy"
                         />
                       </div>
-                      <div className="p-4 flex flex-col gap-3">
-                        <h3 className="text-lg font-semibold text-foreground">
+                      <div className="p-3 sm:p-4 flex flex-col gap-2 sm:gap-3">
+                        <h3 className="text-base sm:text-lg font-semibold text-foreground line-clamp-2">
                           {product.title}
                         </h3>
                         <a
@@ -520,7 +520,7 @@ const ProductsPage = () => {
                           rel="noopener noreferrer"
                           className="w-full"
                         >
-                          <Button className="w-full" variant="default">
+                          <Button className="w-full text-sm sm:text-base" variant="default" size="sm">
                             Mais Informações
                           </Button>
                         </a>

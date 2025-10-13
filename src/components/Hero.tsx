@@ -17,16 +17,16 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <div className="bg-black/50 backdrop-blur-sm p-8 md:p-12 rounded-lg">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <div className="bg-black/50 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-lg">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight">
               Rosa & Mege Serviços Ltda
             </h1>
-            <h2 className="text-2xl md:text-3xl text-white/90 mb-8 leading-relaxed">
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 md:mb-8 leading-relaxed">
               A loja de móveis que mais conecta acessibilidade, inovação e
               sustentabilidade, ajudando famílias a realizarem o sonho de renovar a casa sem abrir mão
               do bom gosto e da responsabilidade com o futuro.
             </h2>
-            <p className="text-xl text-white/80 mb-12 italic">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-8 md:mb-12 italic">
               Feirão da Mobília - A loja do troca troca
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
