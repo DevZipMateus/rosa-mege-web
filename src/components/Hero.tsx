@@ -26,9 +26,6 @@ const Hero = () => {
               sustentabilidade, ajudando famílias a realizarem o sonho de renovar a casa sem abrir mão
               do bom gosto e da responsabilidade com o futuro.
             </h2>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-8 md:mb-12 italic">
-              Feirão da Mobília - A loja do troca troca
-            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 variant="hero"
