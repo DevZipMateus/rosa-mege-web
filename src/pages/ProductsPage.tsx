@@ -475,17 +475,19 @@ const ProductsPage = () => {
 
           {/* Tabs */}
           <Tabs value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-            <TabsList className="w-full flex flex-wrap justify-center h-auto gap-1 sm:gap-2 bg-muted/50 p-2 mb-6 md:mb-8">
-              {categories.map((category) => (
-                <TabsTrigger
-                  key={category.id}
-                  value={category.id}
-                  className="flex-1 min-w-[140px] sm:min-w-0 sm:flex-grow md:flex-grow-0 text-xs sm:text-sm data-[state=active]:bg-primary data-[state=active]:text-primary-foreground px-2 sm:px-3"
-                >
-                  {category.name}
-                </TabsTrigger>
-              ))}
-            </TabsList>
+            <div className="w-full overflow-x-auto pb-2 mb-6 md:mb-8">
+              <TabsList className="inline-flex w-full min-w-max md:w-auto md:min-w-0 flex-nowrap md:flex-wrap justify-start md:justify-center h-auto gap-2 bg-muted/50 p-2">
+                {categories.map((category) => (
+                  <TabsTrigger
+                    key={category.id}
+                    value={category.id}
+                    className="whitespace-nowrap text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                  >
+                    {category.name}
+                  </TabsTrigger>
+                ))}
+              </TabsList>
+            </div>
 
             {categories.map((category) => (
               <TabsContent key={category.id} value={category.id} className="mt-6 md:mt-8">
