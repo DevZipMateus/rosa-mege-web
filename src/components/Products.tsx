@@ -115,25 +115,22 @@ const Products = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mb-6 md:mb-8 max-w-5xl mx-auto px-2 sm:px-4">
             <video
               src={video1}
-              autoPlay
+              controls
               loop
-              muted
               playsInline
               className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
             <video
               src={video2}
-              autoPlay
+              controls
               loop
-              muted
               playsInline
               className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
             <video
               src={video3}
-              autoPlay
+              controls
               loop
-              muted
               playsInline
               className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] lg:max-h-[480px] rounded-lg object-contain"
             />
