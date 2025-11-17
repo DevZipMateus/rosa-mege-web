@@ -34,7 +34,7 @@ const Contact = () => {
                   <Clock className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold text-foreground mb-1">Horário de funcionamento</p>
-                    <p className="text-muted-foreground">Segunda à sexta: 08:00 às 12:00</p>
+                    <p className="text-muted-foreground">Segunda à sexta: 08:00 às 12:00 e das 13:30 às 18:30</p>
                     <p className="text-muted-foreground">Sábado: 08:00 às 16:00</p>
                   </div>
                 </div>
@@ -44,12 +44,12 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Telefone</p>
                     <a
-                      href="https://wa.me/554999609800"
+                      href="https://wa.me/5549988666107"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-accent transition-colors"
                     >
-                      (49) 99960-9800
+                      (49) 98866-6107
                     </a>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const Contact = () => {
                 asChild
                 className="w-full"
               >
-                <a href="https://wa.me/554999609800" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5549988666107" target="_blank" rel="noopener noreferrer">
                   <Phone className="h-5 w-5 mr-2" />
                   Chamar no WhatsApp
                 </a>
