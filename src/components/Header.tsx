@@ -74,7 +74,7 @@ const Header = () => {
 
           {/* Contact Info */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="https://wa.me/554999609800" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors">
+            <a href="https://wa.me/5549988666107" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors">
               <Phone className="h-5 w-5" />
             </a>
             <a href="mailto:rosaemegeservicos@gmail.com" className="text-primary-foreground hover:text-accent transition-colors">
@@ -113,7 +113,7 @@ const Header = () => {
                 <div className="border-t border-primary-foreground/20 pt-6 pb-4">
                   <p className="text-primary-foreground/70 text-sm mb-4 px-4">Conecte-se conosco:</p>
                   <div className="flex items-center justify-center gap-6">
-                    <a href="https://wa.me/554999609800" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors hover:scale-110 transform">
+                    <a href="https://wa.me/5549988666107" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors hover:scale-110 transform">
                       <Phone className="h-6 w-6" />
                     </a>
                     <a href="mailto:rosaemegeservicos@gmail.com" className="text-primary-foreground hover:text-accent transition-colors hover:scale-110 transform">

@@ -33,7 +33,7 @@ const Hero = () => {
                 asChild
                 className="text-lg"
               >
-                <a href="https://wa.me/554999609800" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5549988666107" target="_blank" rel="noopener noreferrer">
                   Fale conosco
                 </a>
               </Button>
