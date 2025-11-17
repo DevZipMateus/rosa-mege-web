@@ -517,7 +517,7 @@ const ProductsPage = () => {
                           {product.title}
                         </h3>
                         <a
-                          href={`https://wa.me/554999609800?text=Olá! Gostaria de mais informações sobre: ${encodeURIComponent(product.title)}`}
+                          href={`https://wa.me/5549988666107?text=Olá! Gostaria de mais informações sobre: ${encodeURIComponent(product.title)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-full"
