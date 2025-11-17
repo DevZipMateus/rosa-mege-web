@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 // Import existing images
@@ -536,6 +537,7 @@ const ProductsPage = () => {
         </div>
       </main>
 
+      <Footer />
       <WhatsAppButton />
     </div>
   );
